@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+/* ---------------------------------------------Home Section------------------------------------------------- */
+.Section1-Bg{
+  background-image:linear-gradient(90deg, rgba(17,12,71,1) 0%, rgba(24,15,132,1) 51%, rgba(33,28,90,1) 100%)
+}
+
+.Sectionbg{
+  
+  background-repeat: no-repeat;
+background-size: contain;
+background-image: url("../src/assets/Section.png");
+};
+
+.Scroll{
+  position: sticky;
+top: 0;
+}
+/* ---------------------------------------------Section-3 ------------------------------------------------- */
+.Bg-3{
+  
+  background: url("../src/assets/SectionRes.png") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+background-position-x: center;
+background-position-y: center;
+padding: 80px,0px;
+
+}
+.photocolor{
+  position: relative;
+  background: rgb(0 0 0 / 37%);
+}
+.BigHeading {
+  margin-bottom: 15px;
+  font-size: 35px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 47px;}
+  
+.plybtn{
+  width: 100px;
+  height: 100px;
+  opacity: 1;
+  border-radius: 50%;
+  border: 2px solid rgb(186 186 186 / 67%);
+  top: -14px;
+  left: -14px;
+  background: rgba(198, 16, 0, 0);
+}
+
+  
+
+/* ---------------------------------------------Compney Section------------------------------------------------- */
+
+.Bg-img1{
+ 
+  height: 350;
+  background-image: url('../src/assets/Compney\ Section/img1.jpg');
+  background-size: cover;
+ };
+
+ .Com-img2{
+  background-image: url('../src/assets/Compney\ Section/img2');
+ }; 
+
+
+
+ 
+.select-color{
+  color:'light-dark(graytext, rgb(170, 170, 170))';
+}
+
+.Registration-Input{
+  width:100%;
+  outline: none;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  border: 2px;
+  border-color: #CCCCCC;
+  padding: 12px;
+  }
+  .Registration-SubInput{
+    width:100%;
+    border-radius: 8px;
+   border: 2px solid rgb(204, 204, 204);
+    font-size:12px;
+    font-weight: 500;
+    padding-left: 10px;
+    
+    }
+    .Registration-Checkboc{
+      width: 15px;
+      height: 15px;
+      border-radius: 5px;
+      border: 2px;
+      border-color: #CCCCCC;
+      vertical-align: middle;
+    }
+    .Submit-btn{
+      width: 100px;
+      background-color: #211C5A;
+      color: #fff;
+      height: 52px;
+      padding: 15px 25px;
+      font-size: 13px;
+      font-weight: 500;
+      border-radius: 8px;
+      border-color: 2px solid #211C5A;
+      margin-top: 20px;
+  }
+  .Cancle-btn{
+    width: 100px;
+    background-color:white;
+    color: #211C5A ;
+    height: 52px;
+    padding: 15px 25px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: #211C5A;
+    margin-top: 20px;
+}
+
+.icon-box {
+  text-align: left;
+  padding: 20px;
+  border-radius: 4px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+  display: flex;
+  align-items: flex-start;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
